@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>QUIZ APP</header>
+
+    <div class="container">
+      <div class="container-quiz">
+
+        <!-- intro view -->
+
+        <div class="quiz-intro">
+          <div class="row">
+            <div class="col-md">
+              Welcome to my Quiz App.
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md">
+              <button type="button" class="btn btn-primary start-btn">Start</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- main quiz view -->
+
+        <div class="quiz-main hidden">
+          <div class="row">
+            <div class="col-md">
+              <div class="question-container">
+                Main Question Goes Here
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md">
+              <div class="answers-container">
+                <ul></ul>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md">
+              <button type="button" class="btn btn-primary submit-btn">Submit</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- summary view -->
+
+        <div class="quiz-summary hidden">
+          <div class="row">
+            <div class="col-md">
+              Thanks for playing!
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md">
+              This is a review of how you did:
+              <div class="results-container"></div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md">
+              <button type="button" class="btn btn-primary restart-btn">Start over?</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
